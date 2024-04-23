@@ -1,0 +1,12 @@
+@import '@/scss/general.scss';
+@import '@/scss/reset.scss';
+@import '@/scss/vars.scss';
+
+body{ 
+  background-color: brown;
+  color: white;
+  
+  a{
+    color: blue;
+  }
+}

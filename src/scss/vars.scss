@@ -1,0 +1,27 @@
+$fontFamilyBase: "Montserrat", sans-serif;
+$fontFamileSecond: "Chakra Petch", sans-serif;
+$fontWeightBase: 500;
+$fontSizeBase: 22px;
+$main-color: #FFFFFF;
+$dark-color: #000000;
+
+
+$background-color: #0D0D0D;
+
+// Gradients
+
+$gradient-blue-pink: linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+
+
+
+
+
+// Минимальная ширина страницы
+$minWidth: 420px;
+// Ширина полотна (макета)
+$maxWidth: 1920px;
+// Ширина ограничивающего контейнера (0 = нет ограничения)
+$maxWidthContainer: 1590px;
+// Общий отступ у контейнера
+// (300= по 150px слева и справа, 0 = нет отступа)
+$containerPadding: 150;

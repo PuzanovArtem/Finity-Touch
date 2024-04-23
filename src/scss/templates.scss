@@ -1,0 +1,36 @@
+.link-contact-us,
+.link-buy-token{
+    position: relative;
+    
+    border-radius: 50px;
+    // border: 2px solid $YellowColor;
+    border: 2px solid $main-color;
+    
+
+    span{
+        position: relative;
+        font-weight: 600;
+        line-height: 27px;
+        color: $main-color;
+
+           
+    }
+    &:hover{
+        background: $gradient-blue-pink;
+    } 
+
+    &:nth-child(2){
+        margin-left: 16px;
+    }
+}
+
+.link-contact-us{
+    padding: 23px 34px 11px 33px;
+}
+
+.link-buy-token{
+    // background: $gradient-blue-pink;
+    padding: 23px 41px 11px 43px;
+
+}
+
