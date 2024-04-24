@@ -1,4 +1,3 @@
-
 .header{
     .header__container{
         max-width: 1920px;
@@ -25,6 +24,7 @@
                         text-align: left;
                         width: 206px;
                         margin: 0 0 0 15px;
+                        color: $main-color;
                     }
                 }
                 
@@ -40,6 +40,8 @@
                 nav{
                     display: flex;
                     align-items: center;
+                    margin: 0 54px 0 0;
+
                     .nav{
                         display: flex;
                         list-style-type: none;
@@ -48,6 +50,7 @@
                         border-right: 1px solid #959595;
                         height: 48px;
                         align-items: center;
+
                         li{
         
                             a{
@@ -58,20 +61,20 @@
                             }
         
                             a:hover{
-                                // color:$YellowColor;
-                                color: yellow;
+                                color: $hover-color;
                             }
         
                             &:nth-child(2){
-                                margin: 0 80px;
+                                margin: 0 40px;
                             }
                             &:nth-child(4){
-                                margin: 0 0px 0 80px ;
+                                margin: 0 0px 0 40px ;
                             }
                         }
                         
                     }
                     .header__dropdown{
+                        margin: 0 0 0 40px;
                         .dropdown__body {
                             // position: absolute;
                             top: 10px;
@@ -85,6 +88,7 @@
                             
                         }
                     }
+
                     .header__content__link{
                         margin: 0 0 0 20px;
                     }
@@ -92,9 +96,9 @@
         
                
             }
+
             .burger{
                 display: none;
-                
                 cursor: pointer;
         
                 .humb{
@@ -124,43 +128,90 @@
     
 }
 
-
-@media(max-width:1200px){
+@media(max-width:1440px){
     .header{
-
         .header__container{
-
+    
             .header__wrapper{
-
+                display: flex;
+                margin:  0 0 30px 0;
+                padding: 29px 0 0 0px;
+                transition: 0.5s;
+            
                 .header__logo{
-                    margin:  0 0 0 15px;
-                }
-        
-                .header__content{
-                    padding: 0 0 0 40px;
-        
-                    nav{
-        
-                        .nav{
-        
-                            li{
-                                
-                                &:nth-child(2){
-                                    margin: 0 40px;
-                                }
-                                &:nth-child(4){
-                                    margin: 0 0px 0 40px ;
-                                }
-                            }
+                    margin: 0 0 0 0px;
+
+                    a{
+                        img{
+                            width: 48px;
+                            height: 43px;
+                        }
+
+                        p{
+                            font-size: 28px;
+                            line-height: 40px;
+                            width: 170px;
+                            margin: 0 0 0 15px;
                         }
                     }
+                    
+                }
+
+                .header__content{
+                   
+            
+                    nav{
+                        margin: 0 24px 0 0;
+    
+                        .nav{
+                            padding: 0 20px 0  0;
+                            
+                            height: 48px;
+                            align-items: center;
+    
+                            li{
+            
+                                a{
+                                    
+                                    line-height: 27px;
+                                    text-align: left;
+                                    color: $main-color;
+                                }
+                                &:nth-child(2){
+                                    margin: 0 20px;
+                                }
+                                &:nth-child(4){
+                                    margin: 0 0px 0 20px ;
+                                }
+                            }
+                            
+                        }
+                        .header__dropdown{
+                            margin: 0 0 0 20px;
+                            .dropdown__body {
+                                // position: absolute;
+                                top: 10px;
+                                right: 30px;
+    
+                                .select {
+                                    font-size: 18px;
+                                    padding: 7px;
+                                    padding: 3px;
+                                }
+                                
+                            }
+                        }
+                        .header__content__link{
+                            margin: 0 0 0 20px;
+                        }
+                    }
+            
+                   
                 }
             }
         }
+        
     }
-
-    
-    
 }
 
 
@@ -172,7 +223,8 @@
             .header__wrapper{
                 flex-basis: 100%;
                 justify-content: space-between;
-        
+                padding: 21px 0 0 0px;
+
                 .header__content{
                     position: absolute;
                     flex-direction: column;
@@ -240,23 +292,31 @@
     .header{
         
         .header__container{
-
+            padding: 0 5px;
+            
             .header__wrapper{
                 display: flex;
                 align-items: center;
                 height: 110px;
-        
+                padding: 15px 0 0 0px;
+
                 .header__logo{
-                    margin: 5px 0 0 26px;
-        
+                    margin: 0 0 0 0px;
+
                     a{
-        
                         img{
-                            width: 60px;
-                            height: 60px;
+                            width: 32px;
+                            height: 27px;
+                        }
+
+                        p{
+                            font-size: 23px;
+                            line-height: 23px;
+                            width: 160px;
+                            margin: 0 0 0 0px;
                         }
                     }
-        
+                    
                 }
         
                 .header__content{
@@ -314,7 +374,7 @@
 }    
 
 
-@media(max-width:568px){
+@media(max-width:425px){
     
     .header{
         
@@ -324,23 +384,29 @@
                 display: flex;
                 align-items: center;
                 height: 61px;
-                padding: 10px 0 0 11px;
+                padding: 10px 0 0 6px;
         
                 .header__logo{
-                    margin: 3px 0 0 33px;
+                    margin: 3px 0 0 0px;
         
                     a{
         
                         img{
-                            width: 35px;
-                            height: 35px;
+                            width: 32px;
+                            height: 27px;
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 23px;
+                            width: 120px;
+                            margin: 0 0 0 2px;
                         }
                     }
         
                 }
         
                 .burger{
-                    margin: 10px 45px 0 0;
+                    margin: 3px 8px 0 0;
         
                     .humb{
                         display: block;

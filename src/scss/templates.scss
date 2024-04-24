@@ -25,12 +25,12 @@
 }
 
 .link-contact-us{
-    padding: 23px 34px 11px 33px;
+    padding: 18px 34px 18px 33px;
 }
 
 .link-buy-token{
     // background: $gradient-blue-pink;
-    padding: 23px 41px 11px 43px;
+    padding: 18px 41px 18px 43px;
 
 }
 
@@ -49,3 +49,47 @@
             flex: 1;
 }
 
+@media(max-width:1440px){
+    .link-contact-us,
+    .link-buy-token{
+
+        span{
+            font-size: 18px;
+            line-height: 23px;
+            
+        }
+
+        &:hover{
+            background: $gradient-blue-pink;
+        } 
+
+        &:nth-child(2){
+            margin-left: 8px;
+        }
+    }
+
+    .link-contact-us{
+        padding: 15px 22px 15px 21px;
+    }
+
+    .link-buy-token{
+        // background: $gradient-blue-pink;
+        padding: 15px 29px 15px 28px;
+
+    }
+
+}
+
+@media(max-width:1440px){
+
+}
+
+
+@media(max-width:1440px){
+
+}
+
+
+@media(max-width:1440px){
+
+}
