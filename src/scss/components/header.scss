@@ -1,6 +1,4 @@
 
-
-
 .header{
     .header__container{
         max-width: 1920px;
@@ -9,7 +7,7 @@
         .header__wrapper{
             display: flex;
             margin:  0 0 30px 0;
-            padding: 15px 0 0 0px;
+            padding: 29px 0 0 0px;
             transition: 0.5s;
             align-items: center;
         
@@ -18,24 +16,25 @@
                 align-items: center;
                 margin: 0 0 0 40px;
                 a{
+                    
                     p{
                         font-family: $fontFamileSecond;
                         font-size: 36px;
                         font-weight: 600;
                         line-height: 46px;
                         text-align: left;
-
+                        width: 206px;
+                        margin: 0 0 0 15px;
                     }
                 }
                 
             }
             .header__content{
                 display: flex;
-                justify-content: space-between;
                 flex-basis: 100%;
                 align-items: center;
-                
-                padding:  0px 5px 0 92px;
+                justify-content: flex-end;
+                padding:  0px 0px 0 0px;
                
         
                 nav{
@@ -47,7 +46,8 @@
                         padding: 0 40px 0  0;
                         margin: 0;
                         border-right: 1px solid #959595;
-                        
+                        height: 48px;
+                        align-items: center;
                         li{
         
                             a{
@@ -82,20 +82,11 @@
                                 padding: 7px;
                                 padding: 3px;
                             }
-                            .select {
-                                outline: 0;
-                                border: 0;
-                                color: #ffffff;
-                                font-size: 22px;
-                                line-height: 27px;
-                                cursor: pointer;
-                                background-color: #000000;
-                                padding: 10px;
-                                -webkit-box-flex: 1;
-                                    -ms-flex: 1;
-                                        flex: 1;
-                            }
+                            
                         }
+                    }
+                    .header__content__link{
+                        margin: 0 0 0 20px;
                     }
                 }
         
@@ -110,7 +101,7 @@
                     display: block;
                     width: 30px;
                     height: 3px;
-                    background-color:yellow;
+                    background-color: $main-color;
                     margin: 6px 0px;
                     transition: 0.3s;
                 }
