@@ -1,0 +1,513 @@
+.section-2__container{
+    max-width: 1552px;
+}
+
+.section-2{
+    position: relative;
+
+    .block-flex{
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 276px;
+
+        .block-flex_img{
+            flex-basis: 47%;
+            width: 100%;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+
+            img{
+                width: 100%;
+                // width: 856px;
+                // height: 765px;
+            }
+        }
+
+        .block-flex_info{
+            flex-basis: 50%;
+            position: static;
+            max-width: 742px;
+            padding: 0 0 0 0px;
+
+            .scobca-right{
+                text-align: right;
+                margin-bottom: -65px;
+
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+            }
+
+            .scobca-left{
+                margin-top: -4px;
+                margin-left: 0px;
+
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+            }
+
+            h2{
+                font-family: 'Chakra Petch', sans-serif;
+                max-width: 682px;
+                font-weight: 600;
+                font-size: 85px;
+                line-height: 110px;
+                letter-spacing: -0.02em;
+                margin: 0 0 0 49px ;
+            }
+
+            p{
+                line-height: 30px;
+                letter-spacing: 2.3px;
+                max-width: 677px;
+                margin: 28px 0 0 61px;
+            
+            }
+
+            .footer-info{
+                display: flex;
+                align-items: flex-end;
+                margin: -7px 0 0 0;
+
+                a{
+                    flex-basis: 45%;
+                }
+
+                .footer-info_deco{
+                    display: flex;
+                    align-items: flex-end;
+                    width: 100%;
+                    flex-basis: 55%;
+
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+
+                    .line-block{
+                        height: 23px;
+                        width: 100%;
+                        width: 400px;
+                        border-top: 2px dashed #FFFFFF;
+                        border-bottom: 2px solid #FFFFFF;
+                    }
+
+                    h5{
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 180%;
+
+                        font-family: 'Chakra Petch', sans-serif;
+
+                        writing-mode: vertical-rl;
+                    }
+                }
+            }
+
+            button{
+                font-weight: 600;
+                font-size: 27px;
+                line-height: 33px;
+                color: #FFFFFF;
+
+                border-radius: 60px 0px;
+                padding: 23px 30px 16px 26px;
+                filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
+
+                background-color: rgba($color: #000000, $alpha: 0);
+            
+                border: #FFFFFF 2px solid;
+
+                display: flex;
+                align-items: center;
+
+                position: relative;
+                left: 0px;
+
+                //margin-top: 25px;
+
+                img{
+                    margin-left: 18px;
+                }
+            }
+
+            button:hover{
+                background-color: #a355e2;
+            }
+        }
+    }
+
+    .grant .block-flex_info{
+        h2{
+            span{
+                background: $gradient-green-yellow;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+
+        button{
+            border:  2px solid  ;
+            // border-image-source: $gradient-green-yellow;
+            
+        }
+
+        button:hover{
+            background-color: rgb(117, 174, 32);
+        }
+
+        // .deco{
+        //     position: absolute;
+
+        //     right: -300px;
+        //     top: -200px;
+
+        //     z-index: -1;
+        // }
+    }
+
+
+    .games .block-flex_info{
+        h2{
+            span{
+                color: skyblue;
+            }
+        }
+
+        button{
+            border: skyblue 2px solid;
+        }
+
+        button:hover{
+            background-color: rgb(93, 142, 161);
+        }
+
+        // .deco{
+        //     position: absolute;
+
+        //     left: -300px;
+        //     top: -200px;
+
+        //     z-index: -1;
+        // }
+    }
+
+    .nft .block-flex_info{
+        h2{
+            span{
+                color: orange;
+            }
+        }
+
+        button{
+            border: orange 2px solid;
+        }
+
+        button:hover{
+            background-color: rgb(174, 114, 1);
+        }
+
+        // .deco{
+        //     position: absolute;
+
+        //     right: -300px;
+        //     top: -200px;
+
+        //     z-index: -1;
+        // }
+    }
+}
+
+@media(max-width: 1450px){
+    .section-2{
+        .block-flex{    
+            .block-flex_info{
+                .footer-info{    
+                    .footer-info_deco{
+                        h5{
+                            font-size: 18px;
+                            line-height: 180%;
+                        }
+                    }
+                }
+    
+                button{
+                    font-size: 21px;
+                    line-height: 28px;
+    
+                    padding: 20px 18px;
+    
+                    left: -40px;
+    
+                    img{
+                        margin-left: 18px;
+                    }
+                }
+            }
+        }
+
+        // .grant .block-flex_info{
+        //     .deco{
+        //         right: -100px;
+        //         top: -200px;
+        //     }
+        // }
+    
+        // .games.block-flex_info{
+        //     .deco{
+        //         left: -100px;
+        //         top: -200px;
+        //     }
+        // }
+    
+        // .nft .block-flex_info{
+        //     .deco{
+        //         right: -100px;
+        //         top: -200px;
+        //     }
+        // }
+    }
+}
+
+@media(max-width: 1150px){
+    .section-2{
+        .block-flex{
+            justify-content: space-between;
+    
+            .block-flex_img{
+                flex-basis: 47%;
+                width: 100%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+    
+            .block-flex_info{
+                flex-basis: 50%;
+    
+                .scobca-right{
+                    text-align: right;
+                    margin-bottom: -50px;
+                }
+    
+                .scobca-left{
+                    margin-top: -10px;
+                    margin-left: -15px;
+                }
+    
+                h2{
+                    font-size: 60px;
+                    line-height: 80px;
+                }
+    
+                p{
+                    line-height: 25px;
+                }
+    
+                .footer-info{
+                    align-items: flex-end;
+    
+                    .footer-info_deco{
+                        align-items: flex-end;
+    
+                        .line-block{
+                            height: 23px;
+                        }
+    
+                        h5{
+                            font-size: 18px;
+                            line-height: 180%;
+                        }
+                    }
+                }
+    
+                button{
+                    font-size: 17px;
+                    line-height: 28px;
+    
+                    padding: 16px 14px;
+    
+                    left: 0px;
+    
+                    img{
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 940px){
+    .section-2{
+        order: 3;
+
+        .block-flex{
+            justify-content: space-between;
+            flex-direction: column;
+    
+            .block-flex_img{
+                flex-basis: 47%;
+                width: 100%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+    
+            .block-flex_info{
+                flex-basis: 50%;
+    
+                .scobca-right{
+                    text-align: right;
+                    margin-bottom: -50px;
+                }
+    
+                .scobca-left{
+                    margin-top: 0px;
+                    margin-left: -15px;
+                    position: relative;
+                    top: -20px;
+                }
+    
+                h2{
+                    font-size: 60px;
+                    line-height: 80px;
+                }
+    
+                p{
+                    line-height: 25px;
+                }
+    
+                .footer-info{
+                    align-items: flex-end;
+                    flex-basis: 40%;
+
+                    flex-direction: column;
+
+                    a{
+                        flex-basis: 100%;
+                        margin: 0 auto;
+                    }
+    
+                    .footer-info_deco{
+                        align-items: flex-end;
+                        flex-basis: 100%;
+    
+                        .line-block{
+                            height: 23px;
+                        }
+    
+                        h5{
+                            font-size: 18px;
+                            line-height: 180%;
+                        }
+                    }
+                }
+    
+                button{
+                    font-size: 21px;
+                    line-height: 25px;
+    
+                    padding: 16px 21px;
+    
+                    left: 0px;
+    
+                    img{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .games{
+            .block-flex_info {
+                order: 1;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .section-2{
+        .block-flex{
+            justify-content: space-between;
+            flex-direction: column;
+    
+            .block-flex_img{
+                flex-basis: 47%;
+                width: 100%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+    
+            .block-flex_info{
+                flex-basis: 50%;
+    
+                .scobca-right{
+                    text-align: right;
+                    margin-bottom: -50px;
+                    margin-left: 10px;
+                }
+    
+                .scobca-left{
+                    margin-top: -25px;
+                    margin-left: -15px;
+                }
+    
+                h2{
+                    font-size: 35px;
+                    line-height: 60px;
+                }
+    
+                p{
+                    font-size: 16px;
+                    line-height: 21px;
+                    text-align: center;
+                }
+    
+                .footer-info{
+                    align-items: flex-end;
+
+                    a{
+                        flex-basis: 40%;
+                    }
+
+                    .footer-info_deco{
+                        align-items: flex-end;
+                        flex-basis: 60%;
+    
+                        .line-block{
+                            height: 21px;
+                        }
+    
+                        h5{
+                            font-size: 16px;
+                            line-height: 160%;
+                        }
+                    }
+                }
+    
+                button{
+                    font-size: 15px;
+                    line-height: 18px;
+    
+                    padding: 16px 18px;
+    
+                    left: 0px;
+    
+                    img{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

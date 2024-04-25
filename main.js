@@ -30,3 +30,24 @@ function closeMenu(){
 }
 
 navLink.forEach(n => n.addEventListener('click', closeMenu));
+
+//
+
+new Swiper(' .idea_swiper-container', {
+    breakpoints: {
+        1300: {
+            slidesPerView: 4,
+        },
+        970: {
+            slidesPerView: 3,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.2,
+        }
+    },
+
+    spaceBetween: 40,
+})
