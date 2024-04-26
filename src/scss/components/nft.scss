@@ -1,15 +1,15 @@
-.grant_container{
+.nft_container{
     max-width: 1552px;
 }
 
-.grant{
+.nft{
     position: relative;
 
-    .grant__content{
+    .nft__content{
         position: relative;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 339px;
+        margin-bottom: 100px;
 
         &__img{
             flex-basis: 47%;
@@ -25,13 +25,13 @@
             }
         }   
 
-        .grant__content__info{
+        .nft__content__info{
             flex-basis: 50%;
             position: static;
             max-width: 742px;
             padding: 0 0 0 0px;
 
-            .grant__content__info-text{
+            .nft__content__info-text{
                 max-width: 742px;
                 max-height: 500px;
                 h2{
@@ -41,10 +41,10 @@
                     font-size: 85px;
                     line-height: 110px;
                     letter-spacing: -0.02em;
-                    margin: 0 0 0 49px ;
+                    margin: 0 0 0 43px ;
 
                     span{
-                        background: $gradient-green-yellow;
+                        background: $gradient-orange;
                         -webkit-text-fill-color: transparent;
                         background-clip: text;
                     }
@@ -53,8 +53,8 @@
                 p{
                     line-height: 30px;
                     letter-spacing: 2.3px;
-                    max-width: 677px;
-                    margin: 33px 0 0 63px;
+                    max-width: 698px;
+                    margin: 23px 0 0 44px;
                 } 
 
                 // &:before,
@@ -81,10 +81,10 @@
             }
             
 
-            .grant__content__info-bottom{
+            .nft__content__info-bottom{
                 display: flex;
                 align-items: flex-end;
-                margin: -8px 0 0 0;
+                margin: -10px 0 0 0;
     
                 a{
                     flex-basis: 45%;
@@ -111,7 +111,7 @@
                         
                         //margin-top: 25px;
     
-                        border:  2px solid greenyellow ;
+                        border:  2px solid orangered;
                         // border-image-source: $gradient-green-yellow;
     
                         img{
@@ -168,28 +168,25 @@
     }
 
     .scobca-left{
-        margin-top: -9px;
+        margin-top: 8px;
         margin-left: 0px;
 
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
     }
-
-
-
 }
 
 
 @media(max-width: 1450px){
     
-    .grant{
+    .nft{
         position: relative;
 
-        .grant__content{
-            .grant__content__info{
+        .nft__content{
+            .nft__content__info{
 
-                .grant__content__info-bottom{
+                .nft__content__info-bottom{
                 
                     &__deco{
     
@@ -208,9 +205,9 @@
 }
 
 @media(max-width: 1150px){
-    .grant{
+    .nft{
     
-        .grant__content{
+        .nft__content{
             justify-content: space-between;
     
             &__img{
@@ -222,10 +219,10 @@
                 }
             }   
     
-            .grant__content__info{
+            .nft__content__info{
                 flex-basis: 50%;
 
-                .grant__content__info-text{
+                .nft__content__info-text{
                     h2{
                         font-size: 60px;
                         line-height: 80px;
@@ -244,7 +241,7 @@
                 }
                 
 
-                .grant__content__info-bottom{
+                .nft__content__info-bottom{
                     align-items: flex-end;
         
                     a{
@@ -281,6 +278,7 @@
     
             
         }
+
         .scobca-right{
             text-align: right;
             margin-bottom: -50px;
@@ -294,10 +292,10 @@
 }
 
 @media(max-width: 940px){
-    .grant{
+    .nft{
         // order: 3;
     
-        .grant__content{
+        .nft__content{
             justify-content: space-between;
             flex-direction: column;
     
@@ -310,9 +308,9 @@
                 }
             }   
     
-            .grant__content__info{
+            .nft__content__info{
                 flex-basis: 50%;
-                .grant__content__info-text{
+                .nft__content__info-text{
                     h2{
                         font-size: 60px;
                         line-height: 80px;
@@ -325,7 +323,7 @@
                 }
                 
 
-                .grant__content__info-bottom{
+                .nft__content__info-bottom{
                     align-items: flex-end;
                         flex-basis: 40%;
     
@@ -369,6 +367,7 @@
     
             
         }
+
         .scobca-right{
             text-align: right;
             margin-bottom: -50px;
@@ -384,10 +383,10 @@
 }
 
 @media(max-width: 600px){
-    .grant{
+    .nft{
         position: relative;
     
-        .grant__content{
+        .nft__content{
             justify-content: space-between;
             flex-direction: column;
     
@@ -400,9 +399,9 @@
                 }
             }   
     
-            .grant__content__info{
+            .nft__content__info{
                 flex-basis: 50%;
-                .grant__content__info-text{
+                .nft__content__info-text{
                     h2{
                         font-size: 35px;
                         line-height: 60px;
@@ -416,7 +415,7 @@
                 }
                 
             
-                .grant__content__info-bottom{
+                .nft__content__info-bottom{
                     align-items: flex-end;
         
                     a{

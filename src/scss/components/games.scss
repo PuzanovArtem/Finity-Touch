@@ -9,7 +9,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 276px;
+        margin-bottom: 300px;
 
         &__img{
             flex-basis: 47%;
@@ -41,10 +41,10 @@
                     font-size: 85px;
                     line-height: 110px;
                     letter-spacing: -0.02em;
-                    margin: 0 0 0 49px ;
+                    margin: 0 0 0 65px ;
 
                     span{
-                        background: $gradient-green-yellow;
+                        background: $gradient-blue;
                         -webkit-text-fill-color: transparent;
                         background-clip: text;
                     }
@@ -54,37 +54,37 @@
                     line-height: 30px;
                     letter-spacing: 2.3px;
                     max-width: 677px;
-                    margin: 33px 0 0 63px;
+                    margin: 21px 0 0 73px;
                 } 
 
-                &:before,
-                &:after{
-                    content: '';
-                    position: absolute;
-                    border: solid  $main-color;
-                    width: 70px;
-                    height: 70px;
-                    pointer-events: none;
-                }
+                // &:before,
+                // &:after{
+                //     content: '';
+                //     position: absolute;
+                //     border: solid  $main-color;
+                //     width: 70px;
+                //     height: 70px;
+                //     pointer-events: none;
+                // }
 
-                &:before{
-                    top: 0 ;
-                    right: 0 ;
-                    border-width: 3px 3px 0 0px;
-                }
+                // &:before{
+                //     top: 0 ;
+                //     left: 671px ;
+                //     border-width: 3px 3px 0 0px;
+                // }
 
-                &:after{
-                    bottom: 167px;
-                    right: 671px;
-                    border-width: 0 0px 3px 3px ;
-                }
+                // &:after{
+                //     bottom: 224px;
+                //     left: 14px;
+                //     border-width: 0 0px 3px 3px ;
+                // }
             }
             
 
             .games__content__info-bottom{
                 display: flex;
                 align-items: flex-end;
-                margin: 60px 0 0 0;
+                margin: -7px 0 0 0;
     
                 a{
                     flex-basis: 45%;
@@ -107,11 +107,11 @@
                         align-items: center;
         
                         position: relative;
-                        left: 0px;
+                        left: 15px;
                         
                         //margin-top: 25px;
     
-                        border:  2px solid greenyellow ;
+                        border:  2px solid $gradient-blue-pink ;
                         // border-image-source: $gradient-green-yellow;
     
                         img{
@@ -131,7 +131,8 @@
                     -webkit-user-select: none;
                     -moz-user-select: none;
                     -ms-user-select: none;    
-    
+                    margin: 0 -15px 0 0;
+
                     .line-block{
                         height: 23px;
                             width: 100%;
@@ -156,6 +157,24 @@
         }
 
         
+    }
+    .scobca-right{
+        text-align: right;
+        margin-bottom: -65px;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .scobca-left{
+        margin-top: 8px;
+        margin-left: 13px;
+    
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
     }
 }
 
@@ -260,6 +279,15 @@
     
             
         }
+        .scobca-right{
+            text-align: right;
+            margin-bottom: -50px;
+        }
+
+        .scobca-left{
+            margin-top: -10px;
+            margin-left: -15px;
+        }
     }
 }
 
@@ -339,6 +367,17 @@
     
             
         }
+        .scobca-right{
+            text-align: right;
+            margin-bottom: -50px;
+        }
+
+        .scobca-left{
+            margin-top: 0px;
+            margin-left: -15px;
+            position: relative;
+            top: -20px;
+        }
     }
 }
 
@@ -414,6 +453,17 @@
             
             
             
+        }
+
+        .scobca-right{
+            text-align: right;
+            margin-bottom: -50px;
+            margin-left: 10px;
+        }
+
+        .scobca-left{
+            margin-top: -25px;
+            margin-left: -15px;
         }
     }
 }
