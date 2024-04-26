@@ -31,7 +31,7 @@ function closeMenu(){
 
 navLink.forEach(n => n.addEventListener('click', closeMenu));
 
-//
+// Idea
 
 new Swiper(' .idea_swiper-container', {
     breakpoints: {
@@ -50,4 +50,71 @@ new Swiper(' .idea_swiper-container', {
     },
 
     spaceBetween: 40,
+})
+
+// Team
+
+new Swiper('.team__swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 47,
+    //slidesPerColumn: 2,
+    //gridRows: 2,
+
+    
+    breakpoints: {
+        1300: {
+            slidesPerView: 4,
+        },
+        900: {
+            slidesPerView: 3,
+        },
+        0: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        }
+    },
+
+    navigation: {
+        nextEl: '.nav-right',
+        prevEl: '.nav-left'
+    }
+    
+})
+
+//Partners
+
+new Swiper(' .partner_slider-block', {
+
+    spaceBetween: 100,
+    //slidesPerView: 2,
+    //watchOwerflow: true,
+
+    breakpoints: {
+        1700: {
+            slidesPerView: 6,
+        },        
+        1450: {
+            slidesPerView: 5,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+        720: {
+            slidesPerView: 2.5,
+        },
+        0: {
+            slidesPerView: 2,
+
+            spaceBetween: 40,
+        }
+    },
+
+    loop: true,
+    freeMode: true,
+    autoplay: {
+        delay: 0,
+        OnInteraction: false
+    },
+
+    speed: 3000
 })

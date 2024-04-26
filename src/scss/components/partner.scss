@@ -1,0 +1,33 @@
+.partner{
+    margin-bottom: 100px;
+
+    position: relative;
+    // z-index: -2;
+
+    .swiper-container{
+        max-width: 95vw;
+        margin: 0 auto;
+        overflow: hidden;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
+        .swiper-wrapper{
+            align-items: center;
+        }
+
+        .swiper-slide{
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+// @media(max-width: 940px){
+//     .section-4{
+//         order: 1;
+//     }
+// }

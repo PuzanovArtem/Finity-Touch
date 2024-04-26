@@ -9,7 +9,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 100px;
+        margin-bottom: 131px;
 
         &__img{
             flex-basis: 47%;
@@ -35,7 +35,7 @@
                 max-width: 742px;
                 max-height: 500px;
                 h2{
-                    font-family: 'Chakra Petch', sans-serif;
+                    font-family: $fontFamileSecond;
                     max-width: 682px;
                     font-weight: 600;
                     font-size: 85px;
@@ -93,7 +93,7 @@
                         font-weight: 600;
                         font-size: 27px;
                         line-height: 33px;
-                        color: #FFFFFF;
+                        color: $main-color;
         
                         border-radius: 60px 0px;
                         padding: 23px 30px 16px 26px;
@@ -101,7 +101,7 @@
         
                         background-color: rgba($color: #000000, $alpha: 0);
                     
-                        border: #FFFFFF 2px solid;
+                        border:$main-color 2px solid;
         
                         display: flex;
                         align-items: center;
@@ -136,8 +136,8 @@
                         height: 23px;
                             width: 100%;
                             width: 400px;
-                            border-top: 2px dashed #FFFFFF;
-                            border-bottom: 2px solid #FFFFFF;
+                            border-top: 2px dashed $main-color;
+                            border-bottom: 2px solid $main-color;
                     }
     
                     h5{
@@ -145,7 +145,7 @@
                         font-size: 19px;
                         line-height: 180%;
     
-                        font-family: 'Chakra Petch', sans-serif;
+                        font-family: $fontFamileSecond;
     
                         writing-mode: vertical-rl;
                     }
@@ -174,6 +174,14 @@
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
+    }
+
+    .nft__blur{
+        position: absolute;
+        right: -300px;
+        top: -200px;
+
+        // z-index: -1;
     }
 }
 
