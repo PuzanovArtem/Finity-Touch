@@ -20,3 +20,12 @@
 	
 }
 
+@media(max-width: 940px){
+	.hero {order:1;}
+	.partner {order:2;}
+	.idea {order:3;}
+	.grant {order:4;}
+	.games{order: 5;}
+	.nft{order: 6;}
+	.team{order: 7;}
+}

@@ -1,5 +1,5 @@
 .partner{
-    margin-bottom: 100px;
+    margin-bottom: 147px;
 
     position: relative;
     // z-index: -2;
@@ -26,8 +26,6 @@
     }
 }
 
-// @media(max-width: 940px){
-//     .section-4{
-//         order: 1;
-//     }
-// }
+@media(max-width: 940px){
+    .partner {order:2;}
+}

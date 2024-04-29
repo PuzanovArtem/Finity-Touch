@@ -118,3 +118,14 @@ new Swiper(' .partner_slider-block', {
 
     speed: 3000
 })
+
+// QuestionS
+
+
+const questionBlock = document.querySelectorAll('.main-questions .question-block')
+
+questionBlock.forEach((block => {
+    block.addEventListener("click", function() {
+        this.classList.toggle('hide')
+    })
+}))
