@@ -1,0 +1,153 @@
+.contact-us{
+    position: relative;
+    margin-bottom: 220px;
+
+    img{
+        position: absolute;
+        z-index: -1;
+    }
+
+    .coin-left{
+        left: 22px;
+        top: -328px;
+        z-index: 0;
+        
+    }
+
+    .coin-right{
+        right: 23px;
+        top: -74px;
+        z-index: 0;
+
+    }
+
+
+    .contact-us__content{
+        max-width: 611px;
+        margin: 0 auto;
+        text-align: center;
+
+        h2{
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+
+            margin-bottom: 19px;
+        }
+
+        .forms{
+            margin-bottom: 56px;
+
+            form{
+                border-bottom: 2px solid rgba(239, 57, 255, 0.8);
+                text-align: left;
+                position: relative;
+
+                input{
+                    padding: 41px 0 20px 10px;
+                    background-color: rgba($color: #000000, $alpha: 0.0);
+
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 34px;
+
+                    color: #FFFFFF;
+
+                    width: 100%;
+                    
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                }
+
+                input::placeholder{
+                    font-size: 28px;
+                    line-height: 34px;
+    
+                    color: #959595;
+                }
+            }
+        }
+
+        button{
+            border-radius: 0px 60px;
+            border: 2px solid rgba(239, 57, 255, 0.8);
+            background-color: rgba($color: #000000, $alpha: 0.0);
+            filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
+            padding: 17px 73px;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 34px;
+            color: $main-color;
+
+        }
+
+        button:hover{
+            background-color: #a355e2;
+        }
+    }
+}
+
+@media(max-width: 1150px){
+    .contact-us{    
+        .coin-left{
+            display: none;
+        }
+    
+        .coin-right{
+            display: none;
+        }
+    
+        .contact-us__content{
+            h2{
+                font-size: 40px;
+                line-height: 50px;
+            }
+    
+            .forms{
+                form{
+                    input{
+                        font-size: 21px;
+                        line-height: 30px;
+                    }
+    
+                    input::placeholder{
+                        font-size: 21px;
+                        line-height: 30px;
+        
+                        color: #959595;
+                    }
+                }
+            }
+    
+            button{
+                padding: 17px 73px;
+    
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .deco{
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+    .contact-us{    
+        .contact-us__content{
+            h2{
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            button{
+                padding: 15px 50px;
+    
+                font-size: 19px;
+                line-height: 23px;                
+            }
+        }
+    }
+}
