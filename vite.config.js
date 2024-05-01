@@ -29,8 +29,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        login: resolve(__dirname, 'login/index.html'),
-        page: resolve(__dirname, 'page/index.html')
+        token: resolve(__dirname, 'token/index.html'),
+        fund: resolve(__dirname, 'fund/index.html'),
+        marketplace: resolve(__dirname, 'marketplace/index.html')
+        
       }
     }
   },
