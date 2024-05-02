@@ -6,7 +6,7 @@
     position: relative;
     top: -43px;
 
-    margin-bottom: 100px;
+    margin-bottom: 129px;
 
     .swiper-container{
         overflow: hidden;
@@ -92,6 +92,7 @@
 
 @media(max-width: 600px){
     .token-thesis{
+        margin-bottom: 22px;
         .swiper-container{
             .swiper-wrapper{
                 // gap: 25px;
