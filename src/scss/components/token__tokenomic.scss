@@ -1,0 +1,96 @@
+
+.token-tokenomic{
+    position: relative;
+
+    text-align: center;
+
+    margin-bottom: 12.5%;
+
+    .deco{
+        position: absolute;
+        z-index: -1;
+
+        top: -650px;
+        left: 0;
+
+        width: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    h1{
+        font-weight: 600;
+        font-size: 69px;
+        line-height: 84px;
+
+        margin-bottom: 1.5%;
+
+        span{
+            background: linear-gradient(117.47deg, #86AFFE 7.39%, #A57AFF 23.36%, #FB84FF 38.85%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+
+    p{
+        font-size: 25px;
+        line-height: 155%;
+
+        max-width: 1113px;
+
+        margin: 0 auto 4.7%;
+    }
+
+    .token-tokenomic_img{
+        img{
+            width: 80%;
+        }
+    }
+}
+
+@media(max-width: 1150px){
+    .token-tokenomic{
+        text-align: center;
+        
+        h1{
+            font-size: 50px;
+            line-height: 60px;
+        }
+    
+        p{
+            font-size: 21px;
+            line-height: 155%;
+        }
+    
+        .section-2_img{
+            img{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .token-tokenomic{
+        text-align: center;
+        
+        h1{
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        p{
+            font-size: 12px;
+            line-height: 155%;
+        }
+
+        .section-2_img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
