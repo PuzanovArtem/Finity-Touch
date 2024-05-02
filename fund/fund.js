@@ -29,3 +29,31 @@ function closeMenu(){
 }
 
 navLink.forEach(n => n.addEventListener('click', closeMenu));
+
+
+
+//fund_section-3 question
+const questionBlockFund = document.querySelectorAll('.fund .section-3 .question-block')
+
+questionBlockFund.forEach((block => {
+    block.addEventListener("click", function() {
+        this.classList.toggle('hide')
+    })
+}))
+
+//fund_thesis swiper
+new Swiper(' .fund-thesis__swiper-container', {
+    breakpoints: {
+        1300: {
+            slidesPerView: 3,
+        },
+        650: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.2,
+        }
+    },
+
+    spaceBetween: 40,
+})

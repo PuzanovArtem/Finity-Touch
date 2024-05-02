@@ -1,6 +1,9 @@
 
 // .token-hero__container {
+  
+
 // }
+
 .token-hero {
   background-image: url(/src/img/token-hero.png);
   max-height: 815px;
@@ -76,6 +79,7 @@
       }
     }
   }
+
 }
 
 @media (max-width: 1450px) {
@@ -161,7 +165,7 @@
             
         
             .token-hero__info {
-                padding: 253px 0 200px 0px;
+                padding: 253px 0 99px 0px;
                 margin: 0 0 0 24px;
                 max-width: 523px;
                 h1 {
@@ -179,7 +183,7 @@
                     line-height: 23px;
         
                     text-align: center;
-                    margin: 15px 0 54px 0;
+                    margin: 15px 0 29px 0;
                 }
         
                 button{

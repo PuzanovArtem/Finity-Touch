@@ -29,3 +29,21 @@ function closeMenu(){
 }
 
 navLink.forEach(n => n.addEventListener('click', closeMenu));
+
+
+//token_thesis swiper
+new Swiper('.token-thesis__swiper-container', {
+    spaceBetween: 40,
+
+    breakpoints: {
+        1350: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1.2,
+        }
+    },
+})
