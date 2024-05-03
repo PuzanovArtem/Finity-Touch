@@ -1,0 +1,81 @@
+.token__adress{
+    text-align: center;
+    padding-top: 57px;
+    margin-bottom: 94px;
+
+    h1{
+        font-family: $fontFamileSecond;
+
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 83px;
+
+        margin-bottom: 27px;
+
+        span{
+            background: linear-gradient(116.77deg, #FC84FF 3.43%, #54D1FA 38.39%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+
+    h5{
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 68px;
+    }
+
+    .adress-block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        max-width: 863px;
+
+        margin: 0 auto;
+        padding: 10px 9px 7px 30px;
+
+        border: 1px solid #FFFFFF;
+        border-radius: 50px;
+
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;            
+        }
+
+        button{
+            display: flex;
+            align-items: center;
+
+            padding: 24px 45px 20px 45px;
+
+            border: rgba($color: #000000, $alpha: 0) 2px solid;
+            background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+            border-radius: 50px;
+
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+            img{
+                margin-right: 14px;
+            }
+        }
+
+        button:hover{
+            border: #FFFFFF 2px solid;
+        }
+    }
+}
+
+
+@media(max-width: 940px){
+    .token__adress{
+        display: none;
+    }
+}
