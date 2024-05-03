@@ -1,0 +1,227 @@
+.submit__container{
+    max-width: 872px;
+}
+.submit{
+    margin-bottom: 7%;
+    position: relative;
+
+    .coin-left{
+        position: absolute;
+        top: 27px;
+        left: 0;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .coin-right{
+        position: absolute;
+        right: 0;
+        top: -118px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .blur{
+        position: absolute;
+        z-index: -1;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .blur-left{
+        top: -250px;
+        left: 0;
+    }
+
+    .blur-right{
+        top: -300px;
+        right: 0;
+    }
+
+    .submit_content{
+        
+
+        position: relative;
+
+        h1{
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+
+            margin-bottom: 110px;
+
+            text-align: center;
+        }
+
+        .buttons-block{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            margin-bottom: 14%;
+
+            button{
+                filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
+                border-radius: 0px 67.6047px;
+                font-weight: 600;
+                font-size: 33px;
+                line-height: 40px;
+                color: #FFFFFF;
+                padding: 17px 70px 17px 70px;
+
+                background-color: rgba($color: #000000, $alpha: 0);
+                border: solid 1px rgba(239, 57, 255, 0.8);
+            }
+
+            button:hover{
+                background-color: #A57AFF;
+            }
+        }
+
+        .icons-block{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .icons-flex{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                flex-basis: 44%;
+
+                a{
+                    transition: 0.3s;
+                }
+
+                a:hover{
+                    transform: scale(1.1);
+                }
+
+                a:active{
+                    transform: scale(0.9);
+                }
+            }
+        }
+
+        .scobka-top{
+            position: absolute;
+
+            top: -50px;
+            right: -40px;
+        }
+
+        .scobka-bottom{
+            position: absolute;
+            left: -18px;
+            top: 55%;
+        }
+    }
+}
+
+@media(max-width: 1150px){
+    .submit{
+    
+        .coin-left{
+            display: none;
+        }
+    
+        .coin-right{
+            display: none;
+        }
+    
+        .submit_content{    
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+            }
+    
+            .buttons-block{
+                button{
+                    font-size: 26px;
+                    line-height: 30px;
+    
+                    padding: 15px 60px;
+                }
+            }
+    
+            .scobka-top{
+                position: absolute;
+    
+                top: -35px;
+                right: 10px;
+            }
+    
+            .scobka-bottom{
+                position: absolute;
+    
+                left: 10px;
+                top: 50%;
+            }
+        }
+    }
+    .blur{
+        display: none;
+    }
+}
+
+
+@media(max-width: 600px){
+    .submit{
+        .coin-left{
+            display: none;
+        }
+    
+        .coin-right{
+            display: none;
+        }
+    
+        .submitsubmit_content{    
+            h1{
+                display: none;
+            }
+    
+            .buttons-block{
+                button{
+                    font-size: 21px;
+                    line-height: 25px;
+    
+                    padding: 10px 20px;
+                }
+            }
+    
+            .icons-block{
+                flex-direction: column;
+                width: 100%;
+                
+
+                .icons-flex{
+                    width: 100%;
+                    justify-content: space-around;
+
+                    img{
+                        width: 80%;
+                    }
+                }
+
+                .icons-flex:not(:last-child){
+                    margin-bottom: 8%;
+                }
+            }
+    
+            .scobka-top{
+                position: absolute;
+    
+                top: -30px;
+                right: 5px;
+            }
+    
+            .scobka-bottom{
+                position: absolute;
+    
+                left: 5px;
+                top: 10px;
+            }
+        }
+    }
+}
