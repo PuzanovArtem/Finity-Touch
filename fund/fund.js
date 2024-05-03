@@ -57,3 +57,15 @@ new Swiper(' .fund-thesis__swiper-container', {
 
     spaceBetween: 40,
 })
+
+
+// QuestionS
+
+
+const questionBlock = document.querySelectorAll('.fund-questions .question-block')
+
+questionBlock.forEach((block => {
+    block.addEventListener("click", function() {
+        this.classList.toggle('hide')
+    })
+}))
