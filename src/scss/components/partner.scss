@@ -1,6 +1,6 @@
 .partner{
     margin-bottom: 147px;
-
+    display: flex;
     position: relative;
     // z-index: -2;
 
@@ -27,5 +27,17 @@
 }
 
 @media(max-width: 940px){
-    .partner {order:2;}
+    .partner{
+        margin-bottom: 48px;
+    }
+}
+
+
+
+
+
+@media(max-width: 508px){
+    .partner{
+        margin-bottom: 8px;
+    }
 }

@@ -90,14 +90,10 @@
     }
 }
 
-@media(max-width: 940px){
-    .idea{
-        order: 3;
-    }
-}
 
 @media(max-width: 600px){
     .idea{
+        margin-bottom: 66px;
         h1{
             font-size: 24px;
             line-height: 31px;

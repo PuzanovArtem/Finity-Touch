@@ -9,7 +9,6 @@
 	font-weight: $fontWeightBase;
 	font-size: $fontSizeBase;
 	background: $background-color;
-	
 	color: $main-color;
 }
 
@@ -21,11 +20,37 @@
 }
 
 @media(max-width: 940px){
-	.hero {order:1;}
-	.partner {order:2;}
-	.idea {order:3;}
-	.grant {order:4;}
-	.games{order: 5;}
-	.nft{order: 6;}
-	.team{order: 7;}
+	
+	main{
+		display: flex;
+		flex-direction: column;
+	}
+	.partner {
+		order:1;
+	}
+	.idea {
+		order:2;
+	}
+	.grant {
+		order:3;
+	}
+	.games{
+		order: 4;
+	}
+	.nft{
+		order: 5;
+	}
+	.team{
+		order: 6;
+	}
+	.main-questions{
+		order: 7;
+	}
+	.social-media{
+		order: 8;
+	}
+	.contact-us{
+		order: 9;
+	}
+
 }

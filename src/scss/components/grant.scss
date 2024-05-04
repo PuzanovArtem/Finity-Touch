@@ -406,16 +406,22 @@
     
             .grant__content__info{
                 flex-basis: 50%;
+                margin: -26px 0 0 0;
+
                 .grant__content__info-text{
                     h2{
-                        font-size: 35px;
-                        line-height: 60px;
+                        font-size: 30px;
+                        line-height: 39px;
+                        max-width: 250px;
                     }
 
                     p{
-                        font-size: 16px;
-                        line-height: 21px;
+                        font-size: 13px;
+                        line-height: 16px;
                         text-align: center;
+                        margin: 5px auto 0;
+                        max-width: 276px;
+                        letter-spacing: 0px;
                     }
                 }
                 
@@ -430,7 +436,7 @@
                             font-size: 15px;
                             line-height: 18px;
             
-                            padding: 16px 18px;
+                            padding: 7px 17px;
             
                             left: 0px;
             
@@ -468,7 +474,7 @@
 
         .scobca-left{
             margin-top: -25px;
-            margin-left: -15px;
+            margin-left: 16px;
         }
     }
 }
