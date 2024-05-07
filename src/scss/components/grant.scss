@@ -217,7 +217,7 @@
     
         .grant__content{
             justify-content: space-between;
-    
+            margin-bottom: 230px;
             &__img{
                 flex-basis: 47%;
                 width: 100%;
@@ -304,7 +304,7 @@
         .grant__content{
             justify-content: space-between;
             flex-direction: column;
-    
+            margin-bottom: 150px;
             &__img{
                 flex-basis: 47%;
                 width: 100%;
@@ -394,7 +394,8 @@
         .grant__content{
             justify-content: space-between;
             flex-direction: column;
-    
+            margin-bottom: 68px;
+
             &__img{
                 flex-basis: 47%;
                 width: 100%;
@@ -406,7 +407,7 @@
     
             .grant__content__info{
                 flex-basis: 50%;
-                margin: -26px 0 0 0;
+                margin: 4px 0 0 0;
 
                 .grant__content__info-text{
                     h2{
@@ -427,7 +428,8 @@
                 
             
                 .grant__content__info-bottom{
-                    align-items: flex-end;
+                    align-items: flex-end;  
+                    margin: -4px 0 0 0;
         
                     a{
                         flex-basis: 40%;
@@ -435,7 +437,6 @@
                         button{
                             font-size: 15px;
                             line-height: 18px;
-            
                             padding: 7px 17px;
             
                             left: 0px;
@@ -451,12 +452,14 @@
                         flex-basis: 60%;
         
                         .line-block{
-                            height: 21px;
+                            margin: 0px 11px 0 16px;
+                            height: 12px;
                         }
 
                         h5{
-                            font-size: 16px;
+                            font-size: 10px;
                             line-height: 160%;
+                            margin: -18px 11px 0 0;
                         }
                     }
         
@@ -467,14 +470,23 @@
             
         }
         .scobca-right{
+            position: relative;
             text-align: right;
-            margin-bottom: -50px;
-            margin-left: 10px;
+            right: 19px;
+            top: -14px;
+            img{
+                width: 40px;
+            height: 40px;
+            }
         }
 
         .scobca-left{
-            margin-top: -25px;
+            margin-top: 1px;
             margin-left: 16px;
+            img{
+                width: 40px;
+            height: 40px;
+            }
         }
     }
 }

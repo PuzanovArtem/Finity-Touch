@@ -295,6 +295,7 @@ img {
 
         h3 {
           flex-basis: 85%;
+          font-size: 17px;
         }
       }
       
@@ -333,6 +334,7 @@ img {
 
 @media (max-width: 658px){
   .footer{
+    padding: 0px 0 0 0;
     .footer-top{
       flex-direction: column;
       text-align: center;
@@ -340,9 +342,16 @@ img {
       margin-bottom: 24px;
 
       .footer-logo-adapt {
+        margin-top: 5px;
+        margin: 5px 0 -7px 0;
         img {
           width: 60%;
-          margin-right: 10px;
+          margin-right: -5px;
+        }
+
+        h3{
+          font-size: 14px;
+
         }
       }
 
@@ -351,7 +360,7 @@ img {
         text-align: center;
 
         .menu-flex {
-          margin-bottom: 24px;
+          margin-bottom: 11px;
           justify-content: center;
 
           menu {
@@ -363,25 +372,54 @@ img {
               margin: 0;
   
               font-weight: 500;
-              font-size: 21px;
-              line-height: 25px;
+              font-size: 18px;
+              line-height: 21px;
             }
   
             a:not(:last-child) {
-              margin-bottom: 0px;
+              margin-bottom: -9px;
             }
           }
         }
 
         
       }
+
+      .footer__menu__button{
+        display: flex;
+        margin: 0 2px 0 0px;
+
+        .menu__btn-contact-us{
+          // padding: 15px 22px 15px 21px;
+          padding: 7px 12px 9px 12px;
+          span{
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+        .menu__btn-buy-token{
+          margin: 0 0 0 20px;
+          // padding: 15px 29px 15px 28px;
+          padding: 5px 15px 5px 19px;
+
+          span{
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+
     }
     .footer-bottom {
+      padding-bottom: 19px;
       .footer-text {
         font-weight: 500;
         font-size: 9px;
         line-height: 11px;
         text-align: center;
+        width: 314px;
+        margin: 0 auto;
+        word-break: normal;
       }
     }
   }

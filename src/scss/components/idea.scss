@@ -102,10 +102,13 @@
     
         .swiper-container{
             .swiper-wrapper{
+                margin-left:36px;
                 .swiper-slide{
                     padding: 22px 15px 23px 15px;
                     height: auto;
-
+                    width: 238px !important;
+                    border-radius: 40px;
+                    margin-right: 52px !important;
                     .slide-content{
                         img{
                             width: 25%;

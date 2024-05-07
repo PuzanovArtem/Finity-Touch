@@ -229,14 +229,13 @@
     
             .nft__content__info{
                 flex-basis: 50%;
-
+               
                 .nft__content__info-text{
                     h2{
                         font-size: 60px;
                         line-height: 80px;
         
                         span{
-                            background: $gradient-green-yellow;
                             -webkit-text-fill-color: transparent;
                             background-clip: text;
                         }
@@ -317,6 +316,7 @@
     
             .nft__content__info{
                 flex-basis: 50%;
+                
                 .nft__content__info-text{
                     h2{
                         font-size: 60px;
@@ -396,7 +396,7 @@
         .nft__content{
             justify-content: space-between;
             flex-direction: column;
-    
+            margin-bottom: 118px;
             &__img{
                 flex-basis: 47%;
                 width: 100%;
@@ -408,23 +408,29 @@
     
             .nft__content__info{
                 flex-basis: 50%;
+                margin: 17px 0 0 0;
                 .nft__content__info-text{
                     h2{
-                        font-size: 35px;
-                        line-height: 60px;
+                        font-size: 30px;
+                        line-height: 39px;
+                        max-width: 250px;
+                        margin: 0 0 0 47px;
                     }
 
                     p{
-                        font-size: 16px;
-                        line-height: 21px;
+                        font-size: 13px;
+                        line-height: 16px;
                         text-align: center;
+                        margin: 9px auto 0;
+                        max-width: 284px;
+                        letter-spacing: 0px;
                     }
                 }
                 
             
                 .nft__content__info-bottom{
                     align-items: flex-end;
-        
+                    margin: -5px 0 0 0;
                     a{
                         flex-basis: 40%;
 
@@ -432,7 +438,7 @@
                             font-size: 15px;
                             line-height: 18px;
             
-                            padding: 16px 18px;
+                            padding: 7px 17px;
             
                             left: 0px;
             
@@ -447,12 +453,14 @@
                         flex-basis: 60%;
         
                         .line-block{
-                            height: 21px;
+                            margin: 0px 11px 0 3px;
+                            height: 12px;
                         }
 
                         h5{
-                            font-size: 16px;
+                            font-size: 10px;
                             line-height: 160%;
+                            margin: -15px 12px 0 0;
                         }
                     }
         
@@ -463,14 +471,23 @@
             
         }
         .scobca-right{
+            position: relative;
             text-align: right;
-            margin-bottom: -50px;
-            margin-left: 10px;
+            right: 19px;
+            top: -14px;
+            img{
+                width: 40px;
+            height: 40px;
+            }
         }
 
         .scobca-left{
-            margin-top: -25px;
-            margin-left: -15px;
+            margin-top: -8px;
+        margin-left: 18px;
+            img{
+                width: 40px;
+            height: 40px;
+            }
         }
     }
 }

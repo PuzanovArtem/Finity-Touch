@@ -179,13 +179,13 @@
 
 @media(max-width: 600px){
     .main-questions{    
-        margin-bottom: 150px;
+        margin-bottom: 46px;
 
         .main-questions__content{
             flex-direction: column;
     
             &__left{
-                margin-bottom: 25px;
+                margin-bottom: -6px;
                 
                 overflow: hidden;
 
@@ -207,7 +207,10 @@
             &__right{
                 .questions{
                     .question-block{
-                        padding: 15px 13px;
+                        width: 304px;
+                        // margin: 0px auto 6px;
+                        margin: 0px 0 6px 10px;
+                        padding: 13px 14px 13px 9px;
 
                         .title-flex{
                             h3{
@@ -218,7 +221,7 @@
                             img{
                                 width: 7%;
 
-                                margin-left: 50px;
+                                margin-left: 0px;
                             }
                         }
         
@@ -238,7 +241,7 @@
                     }
                 }
                 .questions .question-block:not(:last-child){
-                    margin-bottom: 14px;
+                    margin-bottom: 10px;
                 }
             }
         }
