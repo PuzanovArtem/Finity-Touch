@@ -132,7 +132,6 @@
     
                     .line-block{
                         height: 23px;
-                            width: 100%;
                             width: 400px;
                             border-top: 2px dashed $main-color;
                             border-bottom: 2px solid $main-color;
@@ -273,6 +272,7 @@
         
                         .line-block{
                             height: 23px;
+                            max-width: 400px;
                         }
         
                         h5{
@@ -316,6 +316,7 @@
     
             .grant__content__info{
                 flex-basis: 50%;
+                margin: 0 auto;
                 .grant__content__info-text{
                     h2{
                         font-size: 60px;
@@ -333,7 +334,6 @@
                     align-items: flex-end;
                         flex-basis: 40%;
     
-                        flex-direction: column;
         
                     a{
                         flex-basis: 100%;
@@ -359,6 +359,7 @@
         
                         .line-block{
                                 height: 23px;
+                                width: 350px;
                         }
         
                             h5{
@@ -429,6 +430,7 @@
             
                 .grant__content__info-bottom{
                     align-items: flex-end;  
+                    flex-direction: column;
                     margin: -4px 0 0 0;
         
                     a{
@@ -454,6 +456,7 @@
                         .line-block{
                             margin: 0px 11px 0 16px;
                             height: 12px;
+                            width: 400px;
                         }
 
                         h5{
