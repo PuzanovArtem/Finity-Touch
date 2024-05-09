@@ -2,8 +2,8 @@
 // .fund-hero__container {
 // }
 .fund-hero {
-    background-image: url(/src/img/fund-hero.png);
-    max-height: 815px;
+    // background-image: url(/src/img/fund-hero.png);
+    // max-height: 815px;
   
     .fund-hero__content {
       .fund-hero__img {
@@ -28,7 +28,7 @@
         padding: 118px 0 200px 0px;
         margin: 0 0 0 24px;
         max-width: 463px;
-  
+        z-index: 1 ;
         h1 {
           font-family: $fontFamileSecond;
           font-size: 120px;

@@ -11,7 +11,7 @@
             flex-basis: 45%;
 
             h1{
-                font-family: 'Chakra Petch', sans-serif;
+                font-family: $fontFamileSecond;
 
                 font-weight: 700;
                 font-size: 60px;
@@ -37,7 +37,8 @@
             }
         }
 
-        &__right{
+        &__right,
+        .main-questions__content__right-mob{
             margin: 13px 0 0 10px;
             .questions{
                 flex-basis: 55%;
@@ -104,6 +105,10 @@
                 margin-bottom: 28px;
             }
         }
+        .main-questions__content__right-mob{
+            display: none;
+
+        }
         
     }
 }
@@ -127,6 +132,7 @@
 
 @media(max-width: 1150px){
     .fund-questions{    
+        margin-bottom: 146px;
         .fund-questions__content{
             flex-direction: column;
     
@@ -176,16 +182,21 @@
         }
     }
 }
-
-@media(max-width: 600px){
+@media(max-width: 768px){
     .fund-questions{    
-        margin-bottom: 150px;
+        margin-bottom: 146px;
+    }
+}
+
+@media(max-width: 425px){
+    .fund-questions{    
+        margin-bottom: 93px;
 
         .fund-questions__content{
             flex-direction: column;
     
             &__left{
-                margin-bottom: 25px;
+                margin-bottom: -6px;
                 
                 overflow: hidden;
 
@@ -205,10 +216,18 @@
 
 
             &__right{
+                display: none;
+            }
+            .main-questions__content__right-mob{
+                display: block;
+                margin: 7px 0 0 10px;
+                margin: 7px auto 0;
                 .questions{
                     .question-block{
-                        padding: 15px 13px;
-
+                        width: 304px;
+                        // margin: 0px auto 6px;
+                        margin: 0px 0 6px 10px;
+                        padding: 14px 14px 12px 11px;
                         .title-flex{
                             h3{
                                 font-size: 14px;
@@ -217,7 +236,6 @@
 
                             img{
                                 width: 7%;
-
                                 margin-left: 50px;
                             }
                         }
@@ -225,6 +243,19 @@
                         p{
                             font-size: 12px;
                             line-height: 15px;
+                        }
+                        &:nth-child(2){
+                            letter-spacing: -0.6px;
+                            padding: 9px 14px 12px 12px;
+                        }
+                        &:nth-child(3){
+                            letter-spacing: -0.6px;
+                            padding: 12px 14px 12px 11px;
+                        }
+                        &:nth-child(4){
+                            letter-spacing: -0.2px;
+                            padding: 14px 14px 12px 12px;
+                    
                         }
                     }
 

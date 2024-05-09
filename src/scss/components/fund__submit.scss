@@ -165,6 +165,60 @@
     }
 }
 
+@media(max-width: 950px){
+    .submit{
+    
+        .coin-left{
+            display: none;
+        }
+    
+        .coin-right{
+            display: none;
+        }
+    
+        .submit_content{    
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+                display: none;
+            }
+    
+            .buttons-block{
+                button{
+                    font-size: 26px;
+                    line-height: 30px;
+    
+                    padding: 15px 60px;
+                }
+            }
+    
+            .scobka-top{
+                position: absolute;
+                width: 45px ;
+                height: 45px;
+
+                top: -35px;
+                right: 10px;
+            }
+    
+            .scobka-bottom{
+                position: absolute;
+                width: 45px ;
+                height: 45px;
+
+                left: 10px;
+                top: 50%;
+            }
+        }
+    }
+    .blur{
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+
+}
 
 @media(max-width: 600px){
     .submit{
@@ -211,14 +265,18 @@
     
             .scobka-top{
                 position: absolute;
-    
+                width: 30px ;
+                height: 30px;
+
                 top: -30px;
                 right: 5px;
             }
     
             .scobka-bottom{
                 position: absolute;
-    
+                width: 30px ;
+                height: 30px;
+                
                 left: 5px;
                 top: 10px;
             }

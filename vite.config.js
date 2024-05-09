@@ -26,6 +26,7 @@ export default defineConfig({
   ],
   
   build: {
+    outDir: 'root',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
@@ -35,6 +36,7 @@ export default defineConfig({
         
       }
     }
+
   },
   resolve: {
     alias: {

@@ -177,7 +177,7 @@
     }
 }
 
-@media(max-width: 600px){
+@media(max-width: 425px){
     .main-questions{    
         margin-bottom: 46px;
 
@@ -205,6 +205,7 @@
 
 
             &__right{
+                margin: 0 auto;
                 .questions{
                     .question-block{
                         width: 304px;

@@ -218,41 +218,48 @@ img {
       margin-bottom: 24px;
       margin: 0 0 36px 0px;
       
+      .footer__menu__content{
+        display: block;
+        text-align: center;
+        max-width: 360px;
 
-      .menu-flex {
-        margin-bottom: 24px;
+        .menu-flex {
+          margin-bottom: 24px;
+          max-width: 250px;
+          margin-left: auto;
+          margin-right: auto;
+          menu {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
 
-        menu {
-          display: flex;
-          flex-direction: column;
-          text-align: center;
+            a {
+              margin: 0;
+              padding: 10px 20px;
 
-          a {
-            margin: 0;
-            padding: 10px 20px;
+              font-weight: 500;
+              font-size: 30px;
+              line-height: 40px;
 
-            font-weight: 500;
-            font-size: 30px;
-            line-height: 40px;
+              transition: 0.3s;
 
-            transition: 0.3s;
+              border-radius: 60px;
+              border: 0.5px solid rgba($color: #ffffff, $alpha: 0);
+            }
 
-            border-radius: 60px;
-            border: 0.5px solid rgba($color: #ffffff, $alpha: 0);
-          }
+            a:hover {
+              border: 0.5px solid rgba($color: #ffffff, $alpha: 1);
 
-          a:hover {
-            border: 0.5px solid rgba($color: #ffffff, $alpha: 1);
+              background-color: #0d0d0d;
+            }
 
-            background-color: #0d0d0d;
-          }
+            a:active {
+              background-color: #4a4a4a;
+            }
 
-          a:active {
-            background-color: #4a4a4a;
-          }
-
-          a:not(:last-child) {
-            margin-bottom: 10px;
+            a:not(:last-child) {
+              margin-bottom: 10px;
+            }
           }
         }
       }
@@ -332,7 +339,7 @@ img {
   }
 }
 
-@media (max-width: 658px){
+@media (max-width: 425px){
   .footer{
     padding: 0px 0 0 0;
     .footer-top{
