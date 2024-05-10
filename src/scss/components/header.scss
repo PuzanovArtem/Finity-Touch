@@ -192,7 +192,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1105px) {
   .header {
     .header__container {
       .header__wrapper {
@@ -215,7 +215,8 @@
           nav {
             .nav {
               flex-direction: column;
-
+              border-right: none;
+              padding: 0;
               li {
                 margin: 20px auto;
 
@@ -232,7 +233,12 @@
               }
             }
           }
-
+          .header__dropdown{
+            display: none;
+          }
+          .header__content__link{
+            margin: 213px 0 0 0;
+          }
           &-link {
             flex-direction: column;
             padding-top: 60px;
