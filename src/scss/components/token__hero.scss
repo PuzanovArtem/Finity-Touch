@@ -41,7 +41,9 @@
     .token-hero__info {
       padding: 118px 0 200px 0px;
       margin: 0 0 0 24px;
-      max-width: 523px;
+      max-width: 463px;
+      position: relative;
+        z-index: 1 ;
 
       h1 {
         font-family: $fontFamileSecond;
@@ -65,8 +67,8 @@
         font-weight: 400;
         font-size: 22px;
         line-height: 29px;
-        max-width: 523px;
-        margin: 6px 0 37px -6px;
+        width: 523px;
+        margin: 6px 0 36px -6px;
       }
 
       button {

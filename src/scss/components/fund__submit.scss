@@ -10,6 +10,7 @@
         top: 27px;
         left: 0;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        z-index: 0;
     }
 
     .coin-right{
@@ -17,11 +18,12 @@
         right: 0;
         top: -118px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        z-index: 0;
     }
 
     .blur{
         position: absolute;
-        z-index: -1;
+        z-index: 0;
 
         img{
             width: 100%;
@@ -42,7 +44,7 @@
         
 
         position: relative;
-
+        z-index: 1;
         h1{
             font-weight: 700;
             font-size: 50px;
@@ -184,6 +186,7 @@
             }
     
             .buttons-block{
+                margin-bottom: 75px;
                 button{
                     font-size: 26px;
                     line-height: 30px;
@@ -207,7 +210,7 @@
                 height: 45px;
 
                 left: 10px;
-                top: 50%;
+                top: 33%;
             }
         }
     }
@@ -220,27 +223,30 @@
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 645px){
     .submit{
+        margin-bottom: 28px;
         .coin-left{
             display: none;
         }
     
         .coin-right{
             display: none;
+            
         }
     
-        .submitsubmit_content{    
+        .submit_content{    
             h1{
                 display: none;
             }
     
             .buttons-block{
+                margin-bottom: 38px;
                 button{
-                    font-size: 21px;
-                    line-height: 25px;
+                    font-size: 18px;
+                    line-height: 22px;
     
-                    padding: 10px 20px;
+                    padding: 9px 17px 9px 17px;
                 }
             }
     
@@ -259,7 +265,7 @@
                 }
 
                 .icons-flex:not(:last-child){
-                    margin-bottom: 8%;
+                    margin-bottom: 24px;
                 }
             }
     
@@ -268,8 +274,8 @@
                 width: 30px ;
                 height: 30px;
 
-                top: -30px;
-                right: 5px;
+                top: -19px;
+                right: 10px;
             }
     
             .scobka-bottom{
@@ -277,8 +283,8 @@
                 width: 30px ;
                 height: 30px;
                 
-                left: 5px;
-                top: 10px;
+                left: 8px;
+        top: 34px;
             }
         }
     }
