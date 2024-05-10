@@ -192,7 +192,114 @@
     }
   }
 }
+@media (max-width: 1540px) {
+  .roadmap {
+    .roadmap_container {
+      .roadmap__wrapper-line {
+        .roadmap__img {
+            position: absolute;
+            top: 59px;
+            left: 651px;
+          }
 
+      }
+    }
+  }
+  
+}
+@media (max-width: 1490px) {
+  .roadmap {
+    .roadmap_container {
+      .roadmap__wrapper-line {
+        .roadmap__img {
+            position: absolute;
+            top: 59px;
+            left: 600px;
+          }
+
+      }
+    }
+  }
+  
+}
+@media (max-width: 1440px) {
+  .roadmap {
+    .roadmap_container {
+      .roadmap__wrapper-line {
+        .roadmap__img {
+            position: absolute;
+            top: 59px;
+            left: 574px;
+          }
+          
+          .roadmap__wrapper-flex-seven {
+            position: relative;
+            top: -219px;
+            margin: 0 0 0 27px;
+          }
+      }
+    }
+  }
+  
+}
+@media (max-width: 1355px) {
+  .roadmap {
+    margin-bottom: 0px;
+    .roadmap_container {
+      .roadmap__wrapper-line {
+        .roadmap__img {
+            position: absolute;
+            top: 59px;
+            left: 550px;
+            width: 175px;
+          }
+          .roadmap__wrapper-flex-three {
+            position: relative;
+            top: -80px;
+            margin: 0 0 0 27px;
+          }
+          
+          .roadmap__wrapper-flex-four {
+            position: relative;
+            top: -192px;
+          }
+          
+          .roadmap__wrapper-flex-five {
+            position: relative;
+            top: -290px;
+            margin: 0 0 0 27px;
+          }
+          
+          .roadmap__wrapper-flex-six {
+            position: relative;
+            top: -372px;
+          }
+          
+          .roadmap__wrapper-flex-seven {
+            position: relative;
+            top: -528px;
+            margin: 0 0 0 27px;
+          }
+      }
+    }
+  }
+  
+}
+@media (max-width: 1319px) {
+  .roadmap {
+    .roadmap_container {
+      .roadmap__wrapper-line {
+        .roadmap__img {
+            position: absolute;
+            top: 59px;
+            left: 550px;
+          }
+
+      }
+    }
+  }
+  
+}
 @media (min-width: 1281px) {
     .roadmap__img-mobile {
         display: none;
@@ -209,6 +316,7 @@
 @media (max-width: 1280px) {
 
     .roadmap {
+      margin-bottom: 50px;
         .roadmap__bg {
           &-one {
             position: absolute;
@@ -606,10 +714,11 @@
       }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 
     .roadmap {
         margin-top: 100px;
+        margin-bottom: 16px;
         .roadmap__bg {
           &-one {
             position: absolute;
