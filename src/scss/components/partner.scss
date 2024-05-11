@@ -20,8 +20,8 @@
         .swiper-slide{
 
             img{
-                width: 100%;
-                height: 100%;
+                width: 110%;
+                height: 84%;
             }
         }
     }
@@ -40,5 +40,20 @@
 @media(max-width: 508px){
     .partner{
         margin-bottom: 8px;
+
+        .swiper-container{
+    
+            .swiper-wrapper{
+                align-items: center;
+            }
+    
+            .swiper-slide{
+    
+                img{
+                    width: 98%;
+                    height: 95%;
+                }
+            }
+        }
     }
 }

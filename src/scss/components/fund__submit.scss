@@ -84,7 +84,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-
+            width: 736px;
+            margin: 0 0 0 53px;
             .icons-flex{
                 display: flex;
                 align-items: center;
@@ -146,7 +147,10 @@
                     padding: 15px 60px;
                 }
             }
-    
+            .icons-block{
+                width: 736px;
+                margin: 0 0 0 0px;
+            }
             .scobka-top{
                 position: absolute;
     

@@ -2,7 +2,8 @@
   .header__container {
     max-width: 1920px;
     padding: 0 20px;
-
+    position: relative;
+    z-index: 1;
     .header__wrapper {
       display: flex;
       margin: 0 0 30px 0;
