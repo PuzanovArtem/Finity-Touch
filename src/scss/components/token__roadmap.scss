@@ -354,14 +354,14 @@
             margin-top: 100px;
             height: unset;
             .roadmap__wrapper-flex {
-              margin: 0 40px 50px 0;
-
+              margin: 0 40px 151px 0;
+              justify-content: center;
               &:nth-child(even) {
                 -webkit-box-orient: horizontal;
                 -webkit-box-direction: reverse;
                 -ms-flex-direction: row-reverse;
                 flex-direction: row-reverse;
-                justify-content: end;
+                justify-content: center;
               }
 
               .roadmap__item {
@@ -441,7 +441,7 @@
             
             .roadmap__img-mobile {
               position: absolute;
-              left: 0;
+              left: 100px;
               top: 60px;
               width: 148px;
             }
@@ -490,12 +490,14 @@
             margin-top: 100px;
             height: unset;
             .roadmap__wrapper-flex {
-                margin: 0 40px 250px 0;
+              margin: 0 40px 223px 0;
+              justify-content: flex-end;
               &:nth-child(even) {
                 -webkit-box-orient: horizontal;
                 -webkit-box-direction: reverse;
                 -ms-flex-direction: row-reverse;
                 flex-direction: row-reverse;
+                justify-content: end;
               }
 
               .roadmap__item {
@@ -581,7 +583,25 @@
         }
       }
 }
-
+@media (max-width: 800px){
+  .roadmap{
+    .roadmap__wrapper-line {
+      margin-top: 100px;
+      height: unset;
+      .roadmap__wrapper-flex {
+        margin: 0 40px 189px 0;
+        
+        &:nth-child(even) {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: reverse;
+          -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+          justify-content: end;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 768px) {
 
@@ -714,7 +734,7 @@
       }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
     .roadmap {
         margin-top: 100px;
