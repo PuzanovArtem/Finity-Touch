@@ -4,11 +4,14 @@
                             <img src="src/img/blurs/grant__blur.svg" alt="">
                         </div>
         <div class="grant__content">
-            <div class="grant__content__img">
-                {{!-- <img src="./src/img/grant.png" alt="grant"> --}}
+            {{!-- <div class="grant__content__img">
+                <img src="./src/img/grant.png" alt="grant">
                 <img src="./src/img/grant.webp" alt="grant">
-            </div>
-            
+            </div> --}}
+            <picture  class="grant__content__img">
+                <source srcset="./src/img/grant.webp" type="image/webp">
+                <img src="./src/img/grant.png" alt="">
+            </picture>
             <div class="grant__content__info">
                 {{!-- <div class="grant__blur">
                             <img src="src/img/blurs/grant__blur.svg" alt="">
