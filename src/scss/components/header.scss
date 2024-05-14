@@ -112,7 +112,7 @@
       }
 
       .burger.active .humb:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
       }
     }
   }
@@ -382,6 +382,28 @@
           }
         }
       }
+    }
+  }
+}
+
+@media (max-width: 345px) {
+  .header {
+    .header__container {
+
+       .header__wrapper{
+
+        .header__content{
+
+          .header__content__link{
+            display: flex;
+            flex-direction: column;
+            margin: 179px 0 0 0;
+            .link-buy-token:nth-child(2){
+              margin: 20px 0 0 0;
+            }
+          }
+        } 
+       } 
     }
   }
 }
