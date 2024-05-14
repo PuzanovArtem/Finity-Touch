@@ -39,16 +39,18 @@
                     font-weight: 600;
                     font-size: 22px;
                     line-height: 27px;
-                    
                     background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     background-clip: text;
-                    text-fill-color: transparent;
-
                     position: absolute;
                     bottom: 6%;
                     left: 44%;
+
+                    &:hover{
+                        background: $hover-color;
+                        background-clip: text;
+                    }
                 }
             }
         }

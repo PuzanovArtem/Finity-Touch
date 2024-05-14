@@ -58,8 +58,6 @@
                         text-align: center;
                         letter-spacing: 0.02em;
                         margin: 0 auto;    
-                        //margin-bottom: 20px;
-
                         max-width: 299px;
                     }
     
@@ -74,6 +72,11 @@
                         position: absolute;
                         left: 43%;
                         bottom: 7%;
+
+                        &:hover{
+                            background: $hover-color;
+                            background-clip: text;
+                        }
                     }
                 }
             }
@@ -129,6 +132,8 @@
                         button{
                             font-size: 15px;
                             line-height: 18px;
+
+                            
                         }
                     }
                 }

@@ -10,7 +10,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 300px;
-
+        z-index: 1;
         &__img{
             flex-basis: 47%;
             width: 100%;
@@ -154,7 +154,7 @@
         // left: -300px;
         left: 0px;
         top: -200px;
-
+        z-index: 0;
     }
 }
 
