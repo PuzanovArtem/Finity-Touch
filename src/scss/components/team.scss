@@ -7,7 +7,7 @@
     
     .team__blurs {
         position: absolute;
-        // z-index: 1;
+        z-index: 0;
 
         width: 40%;
         img{
@@ -26,21 +26,21 @@
     }
 
     h1{
-        font-family: 'Chakra Petch', sans-serif;
-
+        font-family: $fontFamileSecond;
         font-weight: 700;
         font-size: 60px;
         line-height: 78px;
-        
         text-align: center;
-
         margin-bottom: 3.7%;
     }
 
     .nav{
         display: none;
     }
-
+    .team__content{
+        position: relative;
+        z-index: 1;
+    }
     .team__wrapper{
         margin-bottom: 74px;
         .team-row{
@@ -51,11 +51,8 @@
             .team-card{
                 overflow: hidden;
                 text-align: center;
-
                 margin: 0 10px;
-
                 background: #0D0D0D;
-                
                 border: #C275FF solid 1px;
                 box-shadow: 2px 2px 9px #91009D;
                 border-radius: 10px;
@@ -124,16 +121,9 @@
 
         .swiper-wrapper{
             .swiper-slide{
-                //max-width: 280px;
                 overflow: hidden;
-
-                //height: 426px;
-                //height: calc((100% - 30px) / 2) !important;
-
                 text-align: center;
-
                 background: #0D0D0D;
-                
                 border: #C275FF solid 1px;
                 box-shadow: 2px 2px 9px #91009D;
                 border-radius: 10px;
@@ -190,35 +180,35 @@
         }
     }
 
-    button{
-        background-color: rgba($color: #000000, $alpha: 0);
-
-        border: 2px solid #FFFFFF;
-        border-radius: 50px 0px;
-
-        filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
-
-        padding: 17px 17px 17px 25px;
-
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 27px;
-        color: #FFFFFF;
+    .team__button{
 
         display: flex;
         align-items: center;
-        //justify-content: space-around;
+        justify-content: center;
 
         margin: 0 auto;
-
-        img{
-            margin-left: 10px;
+        span{
+            background-color: rgba($color: #000000, $alpha: 0);
+            border: 2px solid #FFFFFF;
+            border-radius: 50px 0px;
+            filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
+            padding: 17px 17px 17px 25px;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+    
+            img{
+                margin-left: 10px;
+            }
+            &:hover{
+                background-color: #a355e2;
+            }
         }
+       
     }
 
-    button:hover{
-        background-color: #a355e2;
-    }
+    
 }
 
 
@@ -251,11 +241,13 @@
             }
         }
     
-        button{
-            padding: 10px 20px;
-    
-            font-size: 18px;
-            line-height: 21px;
+        .team__button{
+            span{
+                padding: 10px 20px;
+                font-size: 18px;
+                line-height: 21px;  
+            }
+            
         }
     }
 }
@@ -270,12 +262,6 @@
     
         .swiper-container{
             display: block;
-
-            .swiper-wrapper{
-                .swiper-slide{
-                    // height: 520px;
-                }
-            }
         }
 
         .nav{
@@ -288,27 +274,21 @@
         }
 
         .nav-left{
-            left: 17px;
+            left: 7px;
             top: 53.5%;
         }
 
         .nav-right{
-            right: 17px;
+            right: 7px;
             top: 53.5%;
         }
 
         .teamswiper-container{
             max-width: 80%;
             margin: 0 auto;
-
-            .swiper-wrapper{
-                .swiper-slide{
-                    // height: 330px;
-                }
-            }
         }
 
-        .button{
+        .team__button{
             display: none;
         }
     }
@@ -318,12 +298,6 @@
     .team{
         .swiper-container{
             display: block;
-        
-            .swiper-wrapper{
-                .swiper-slide{
-                    // height: 470px;
-                }
-            }
         }
     }
 }
@@ -332,13 +306,6 @@
     .team{
         .swiper-container{
             display: block;
-        
-            .swiper-wrapper{
-                .swiper-slide{
-                    // height: 420px;
-                }
-            }
-        }
     }
 }
 
@@ -346,12 +313,6 @@
     .team{
         .swiper-container{
             display: block;
-        
-            .swiper-wrapper{
-                .swiper-slide{
-                    // height: 370px;
-                }
-            }
         }
     }
 }
@@ -363,7 +324,6 @@
         h1{
             font-size: 30px;
             line-height: 39px;
-
             margin-bottom: 23px;
         }
     
@@ -408,14 +368,7 @@
             }
         }
     
-        button{
-            display: none;
-
-            padding: 10px 20px;
-    
-            font-size: 18px;
-            line-height: 21px;
-        }
+        
     }
 }
 
@@ -444,5 +397,5 @@
                 }
             }
         }
-    }
+    }}
 }

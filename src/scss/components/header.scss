@@ -77,8 +77,14 @@
 
               .select {
                 font-size: 18px;
-                padding: 7px;
                 padding: 3px;
+                
+
+                .select__option{
+                  font-family: $fontFamilyBase;
+                  font-size: 18px;
+                  font-weight: 500;
+                }
               }
             }
           }

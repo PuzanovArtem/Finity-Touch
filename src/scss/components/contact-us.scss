@@ -8,14 +8,14 @@
     }
 
     .coin-left{
-        left: 22px;
+        left: 0px;
         top: -328px;
         z-index: 0;
         
     }
 
     .coin-right{
-        right: 23px;
+        right: 0px;
         top: -74px;
         z-index: 0;
 
@@ -26,6 +26,8 @@
         max-width: 611px;
         margin: 0 auto;
         text-align: center;
+        position: relative;
+        z-index: 1;
 
         h2{
             font-weight: 700;
@@ -69,8 +71,9 @@
             }
         }
 
-        button{
-            border-radius: 0px 60px;
+        .contact-us__button{
+            span{
+                border-radius: 0px 60px;
             border: 2px solid rgba(239, 57, 255, 0.8);
             background-color: rgba($color: #000000, $alpha: 0.0);
             filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5));
@@ -80,11 +83,13 @@
             line-height: 34px;
             color: $main-color;
 
+                &:hover{
+                    background-color: #a355e2;
+                }
+            }
         }
 
-        button:hover{
-            background-color: #a355e2;
-        }
+        
     }
 }
 
@@ -114,17 +119,18 @@
                     input::placeholder{
                         font-size: 21px;
                         line-height: 30px;
-        
                         color: #959595;
                     }
                 }
             }
     
-            button{
-                padding: 17px 73px;
-    
-                font-size: 24px;
-                line-height: 30px;
+            .contact-us__button{
+                span{
+                    padding: 17px 73px;
+                    font-size: 24px;
+                    line-height: 30px;  
+                }
+                
             }
         }
     }
@@ -158,11 +164,13 @@
                 }
             }
 
-            button{
-                padding: 10px 40px;
-    
-                font-size: 19px;
-                line-height: 23px;                
+            .contact-us__button{
+                span{
+                    padding: 10px 40px;
+                    font-size: 19px;
+                    line-height: 23px; 
+                }
+                               
             }
         }
     }
