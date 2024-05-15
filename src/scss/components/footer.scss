@@ -97,7 +97,20 @@
         }
   
         .footer__dropdown  {
-          
+          .dropdown__body {
+
+            .select {
+              
+
+              .select__option{
+                font-family: $fontFamilyBase;
+                font-size: 18px;
+                font-weight: 500;
+                background-color: $background-color;
+                
+              }
+            }
+          }
         }
       }
     }
